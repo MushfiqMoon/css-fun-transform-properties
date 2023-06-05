@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="bg-black pb-10">
+        <div class="container mx-auto">
+            <header class="text-white text-center p-10 mb-10">
+                <h1 class=" center text-4xl mb-3">Transform properties 🔥</h1>
+                <div class="transform-box rounded-md h-8 w-8 bg-violet-600 ms-5 overflow-hidden inline-block"></div>
+                <span>-(hover the boxs)</span>
+            </header>
+            <main class="grid justify-items-center">
+                <div class="transform flex justify-center items-end py-10 bg-slate-900 rounded-md mb-8 w-full">
+                    <p class="text-white sm:text-md lg:text-2xl tracking-wider grow ps-8"><span
+                            class="text-cyan-400">transform:</span> <span class="text-violet-500">translate</span>(-5px,
+                        -10px);</p>
+                    <div class="transform-box mx-8 translate rounded-md h-8 w-8 bg-violet-600 ms-5"></div>
+                </div>
+                <div class="transform flex justify-center items-end py-10 bg-slate-900 rounded-md mb-8 w-full">
+                    <p class="text-white sm:text-md lg:text-2xl tracking-wider grow ps-8"><span
+                            class="text-cyan-400">transform:</span> <span class="text-violet-500">rotate</span>(15deg);
+                    </p>
+                    <div class="transform-box mx-8 rotate rounded-md h-8 w-8 bg-violet-600 ms-5"></div>
+                </div>
+                <div class="transform flex justify-center items-end py-10 bg-slate-900 rounded-md mb-8 w-full">
+                    <p class="text-white sm:text-md lg:text-2xl tracking-wider grow ps-8"><span
+                            class="text-cyan-400">transform:</span> <span class="text-violet-500">skew</span>(-5deg,
+                        -10deg);</p>
+                    <div class="transform-box mx-8 skew rounded-md h-8 w-8 bg-violet-600 ms-5"></div>
+                </div>
+                <div class="transform flex justify-center items-end py-10 bg-slate-900 rounded-md mb-8 w-full">
+                    <p class="text-white sm:text-md lg:text-2xl tracking-wider grow ps-8"><span
+                            class="text-cyan-400">transform:</span> <span class="text-violet-500">scale</span>(0.7);</p>
+                    <div class="transform-box mx-8 scale rounded-md h-8 w-8 bg-violet-600 ms-5"></div>
+                </div>
+                <div class="transform flex justify-center items-end py-10 bg-slate-900 rounded-md mb-8 w-full">
+                    <p class="text-white sm:text-md lg:text-2xl tracking-wider grow ps-8"><span
+                            class="text-cyan-400">transform:</span> <span class="text-violet-500">matrix</span>(0, 1, 1,
+                        0, 0, 0);</p>
+                    <div class="transform-box mx-8 matrix rounded-md h-8 w-8 bg-violet-600 ms-5"></div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+</body>
+
+</html>

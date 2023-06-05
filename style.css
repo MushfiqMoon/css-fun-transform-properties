@@ -1,0 +1,24 @@
+.transform-box {
+    transition: 0.3s;
+}
+
+.translate:hover {
+    transform: translate(-5px, -10px);
+}
+
+.rotate:hover {
+    transform: rotate(15deg);
+}
+
+.skew:hover {
+    transform: skew(-5deg, -10deg);
+}
+
+.scale:hover {
+    transform: scale(0.7);
+}
+
+.matrix:hover {
+    transform: matrix(0, 1, 1, 0, 0, 0);
+}
+
